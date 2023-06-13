@@ -1,0 +1,53 @@
+[2023-06-13T11:33:04.592+0200] {processor.py:157} INFO - Started process (PID=68938) to work on /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2023-06-13T11:33:04.596+0200] {processor.py:826} INFO - Processing file /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-06-13T11:33:04.596+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:33:04.596+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2023-06-13T11:33:04.626+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2023-06-13T11:33:05.502+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:33:05.502+0200] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_sensors
+[2023-06-13T11:33:05.511+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:33:05.511+0200] {manager.py:504} INFO - Created Permission View: can read on DAG:example_sensors
+[2023-06-13T11:33:05.517+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:33:05.517+0200] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_sensors
+[2023-06-13T11:33:05.517+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:33:05.517+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-13T11:33:05.528+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:33:05.528+0200] {dag.py:2747} INFO - Creating ORM DAG for example_sensors
+[2023-06-13T11:33:05.537+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:33:05.537+0200] {dag.py:3486} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-06-13T11:33:05.556+0200] {processor.py:179} INFO - Processing /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.964 seconds
+[2023-06-13T11:35:19.610+0200] {processor.py:157} INFO - Started process (PID=69258) to work on /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2023-06-13T11:35:19.613+0200] {processor.py:826} INFO - Processing file /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-06-13T11:35:19.614+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:35:19.614+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2023-06-13T11:35:19.640+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2023-06-13T11:35:20.297+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:35:20.297+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-13T11:35:20.311+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:35:20.310+0200] {dag.py:3486} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-06-13T11:35:20.328+0200] {processor.py:179} INFO - Processing /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.719 seconds
+[2023-06-13T11:37:07.658+0200] {processor.py:157} INFO - Started process (PID=69529) to work on /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2023-06-13T11:37:07.661+0200] {processor.py:826} INFO - Processing file /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-06-13T11:37:07.662+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:37:07.662+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2023-06-13T11:37:07.690+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2023-06-13T11:37:08.371+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:37:08.370+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-13T11:37:08.385+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:37:08.385+0200] {dag.py:3486} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-06-13T11:37:08.405+0200] {processor.py:179} INFO - Processing /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.747 seconds
+[2023-06-13T11:38:51.229+0200] {processor.py:157} INFO - Started process (PID=69825) to work on /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2023-06-13T11:38:51.232+0200] {processor.py:826} INFO - Processing file /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-06-13T11:38:51.233+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:38:51.233+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2023-06-13T11:38:51.268+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2023-06-13T11:38:51.989+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:38:51.988+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-13T11:38:52.005+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:38:52.005+0200] {dag.py:3486} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-06-13T11:38:52.024+0200] {processor.py:179} INFO - Processing /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.797 seconds
+[2023-06-13T11:40:32.307+0200] {processor.py:157} INFO - Started process (PID=70058) to work on /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2023-06-13T11:40:32.310+0200] {processor.py:826} INFO - Processing file /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-06-13T11:40:32.311+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:40:32.311+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2023-06-13T11:40:32.338+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2023-06-13T11:40:32.998+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:40:32.998+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-13T11:40:33.017+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:40:33.016+0200] {dag.py:3486} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-06-13T11:40:33.038+0200] {processor.py:179} INFO - Processing /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.731 seconds
+[2023-06-13T11:46:06.196+0200] {processor.py:157} INFO - Started process (PID=71209) to work on /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2023-06-13T11:46:06.202+0200] {processor.py:826} INFO - Processing file /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-06-13T11:46:06.203+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:46:06.202+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2023-06-13T11:46:06.256+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2023-06-13T11:46:07.556+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:46:07.556+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-13T11:46:07.570+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:46:07.570+0200] {dag.py:3486} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-06-13T11:46:07.591+0200] {processor.py:179} INFO - Processing /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 1.396 seconds
+[2023-06-13T11:48:32.594+0200] {processor.py:157} INFO - Started process (PID=71634) to work on /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2023-06-13T11:48:32.598+0200] {processor.py:826} INFO - Processing file /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-06-13T11:48:32.598+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:48:32.598+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2023-06-13T11:48:32.631+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2023-06-13T11:48:33.415+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:48:33.415+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-13T11:48:33.436+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:48:33.436+0200] {dag.py:3486} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-06-13T11:48:33.463+0200] {processor.py:179} INFO - Processing /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.870 seconds

@@ -1,0 +1,95 @@
+[2023-06-13T11:25:59.750+0200] {processor.py:157} INFO - Started process (PID=67565) to work on /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py
+[2023-06-13T11:25:59.753+0200] {processor.py:826} INFO - Processing file /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py for tasks to queue
+[2023-06-13T11:25:59.753+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:25:59.753+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py
+[2023-06-13T11:25:59.790+0200] {processor.py:836} INFO - DAG(s) dict_keys(['dag2']) retrieved from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py
+[2023-06-13T11:25:59.834+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:25:59.834+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-13T11:26:00.601+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:26:00.601+0200] {dag.py:3486} INFO - Setting next_dagrun for dag2 to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T11:26:00.618+0200] {processor.py:179} INFO - Processing /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py took 0.868 seconds
+[2023-06-13T11:30:59.791+0200] {processor.py:157} INFO - Started process (PID=68472) to work on /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py
+[2023-06-13T11:30:59.795+0200] {processor.py:826} INFO - Processing file /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py for tasks to queue
+[2023-06-13T11:30:59.795+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:30:59.795+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py
+[2023-06-13T11:30:59.844+0200] {processor.py:836} INFO - DAG(s) dict_keys(['dag2']) retrieved from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py
+[2023-06-13T11:30:59.930+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:30:59.930+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-13T11:31:00.603+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:31:00.603+0200] {dag.py:3486} INFO - Setting next_dagrun for dag2 to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T11:31:00.628+0200] {processor.py:179} INFO - Processing /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py took 0.838 seconds
+[2023-06-13T11:31:41.745+0200] {processor.py:157} INFO - Started process (PID=68697) to work on /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py
+[2023-06-13T11:31:41.751+0200] {processor.py:826} INFO - Processing file /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py for tasks to queue
+[2023-06-13T11:31:41.752+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:31:41.752+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py
+[2023-06-13T11:31:41.797+0200] {processor.py:836} INFO - DAG(s) dict_keys(['dag2']) retrieved from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py
+[2023-06-13T11:31:43.494+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:31:43.493+0200] {manager.py:504} INFO - Created Permission View: can read on DAG:dag2
+[2023-06-13T11:31:43.505+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:31:43.505+0200] {manager.py:504} INFO - Created Permission View: can edit on DAG:dag2
+[2023-06-13T11:31:43.512+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:31:43.512+0200] {manager.py:504} INFO - Created Permission View: can delete on DAG:dag2
+[2023-06-13T11:31:43.513+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:31:43.513+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-13T11:31:43.530+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:31:43.530+0200] {dag.py:2747} INFO - Creating ORM DAG for dag2
+[2023-06-13T11:31:43.542+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:31:43.542+0200] {dag.py:3486} INFO - Setting next_dagrun for dag2 to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T11:31:43.571+0200] {processor.py:179} INFO - Processing /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py took 1.828 seconds
+[2023-06-13T11:34:14.883+0200] {processor.py:157} INFO - Started process (PID=69106) to work on /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py
+[2023-06-13T11:34:14.887+0200] {processor.py:826} INFO - Processing file /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py for tasks to queue
+[2023-06-13T11:34:14.887+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:34:14.887+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py
+[2023-06-13T11:34:14.921+0200] {processor.py:836} INFO - DAG(s) dict_keys(['dag2']) retrieved from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py
+[2023-06-13T11:34:15.566+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:34:15.566+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-13T11:34:15.583+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:34:15.583+0200] {dag.py:3486} INFO - Setting next_dagrun for dag2 to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T11:34:15.601+0200] {processor.py:179} INFO - Processing /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py took 0.719 seconds
+[2023-06-13T11:35:57.705+0200] {processor.py:157} INFO - Started process (PID=69345) to work on /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py
+[2023-06-13T11:35:57.708+0200] {processor.py:826} INFO - Processing file /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py for tasks to queue
+[2023-06-13T11:35:57.708+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:35:57.708+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py
+[2023-06-13T11:35:57.747+0200] {processor.py:836} INFO - DAG(s) dict_keys(['dag2']) retrieved from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py
+[2023-06-13T11:35:59.719+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:35:59.719+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-13T11:35:59.740+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:35:59.740+0200] {dag.py:3486} INFO - Setting next_dagrun for dag2 to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T11:35:59.764+0200] {processor.py:179} INFO - Processing /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py took 2.060 seconds
+[2023-06-13T11:37:42.081+0200] {processor.py:157} INFO - Started process (PID=69623) to work on /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py
+[2023-06-13T11:37:42.084+0200] {processor.py:826} INFO - Processing file /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py for tasks to queue
+[2023-06-13T11:37:42.084+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:37:42.084+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py
+[2023-06-13T11:37:42.116+0200] {processor.py:836} INFO - DAG(s) dict_keys(['dag2']) retrieved from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py
+[2023-06-13T11:37:42.801+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:37:42.801+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-13T11:37:42.818+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:37:42.818+0200] {dag.py:3486} INFO - Setting next_dagrun for dag2 to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T11:37:42.841+0200] {processor.py:179} INFO - Processing /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py took 0.761 seconds
+[2023-06-13T11:39:26.427+0200] {processor.py:157} INFO - Started process (PID=69909) to work on /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py
+[2023-06-13T11:39:26.430+0200] {processor.py:826} INFO - Processing file /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py for tasks to queue
+[2023-06-13T11:39:26.430+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:39:26.430+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py
+[2023-06-13T11:39:26.463+0200] {processor.py:836} INFO - DAG(s) dict_keys(['dag2']) retrieved from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py
+[2023-06-13T11:39:27.098+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:39:27.098+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-13T11:39:27.114+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:39:27.113+0200] {dag.py:3486} INFO - Setting next_dagrun for dag2 to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T11:39:27.134+0200] {processor.py:179} INFO - Processing /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py took 0.708 seconds
+[2023-06-13T11:41:09.434+0200] {processor.py:157} INFO - Started process (PID=70148) to work on /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py
+[2023-06-13T11:41:09.437+0200] {processor.py:826} INFO - Processing file /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py for tasks to queue
+[2023-06-13T11:41:09.438+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:41:09.438+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py
+[2023-06-13T11:41:09.475+0200] {processor.py:836} INFO - DAG(s) dict_keys(['dag2']) retrieved from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py
+[2023-06-13T11:41:10.149+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:41:10.149+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-13T11:41:10.165+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:41:10.165+0200] {dag.py:3486} INFO - Setting next_dagrun for dag2 to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T11:41:10.182+0200] {processor.py:179} INFO - Processing /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py took 0.748 seconds
+[2023-06-13T11:42:41.934+0200] {processor.py:157} INFO - Started process (PID=70498) to work on /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py
+[2023-06-13T11:42:41.938+0200] {processor.py:826} INFO - Processing file /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py for tasks to queue
+[2023-06-13T11:42:41.940+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:42:41.940+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py
+[2023-06-13T11:42:41.986+0200] {processor.py:836} INFO - DAG(s) dict_keys(['dag2']) retrieved from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py
+[2023-06-13T11:42:42.038+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:42:42.038+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-13T11:42:42.781+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:42:42.781+0200] {dag.py:3486} INFO - Setting next_dagrun for dag2 to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T11:42:42.805+0200] {processor.py:179} INFO - Processing /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py took 0.872 seconds
+[2023-06-13T11:43:41.025+0200] {processor.py:157} INFO - Started process (PID=70720) to work on /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py
+[2023-06-13T11:43:41.030+0200] {processor.py:826} INFO - Processing file /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py for tasks to queue
+[2023-06-13T11:43:41.030+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:43:41.030+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py
+[2023-06-13T11:43:41.078+0200] {processor.py:836} INFO - DAG(s) dict_keys(['dag2']) retrieved from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py
+[2023-06-13T11:43:41.155+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:43:41.155+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-13T11:43:42.304+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:43:42.303+0200] {dag.py:3486} INFO - Setting next_dagrun for dag2 to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T11:43:42.336+0200] {processor.py:179} INFO - Processing /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py took 1.311 seconds
+[2023-06-13T11:44:37.593+0200] {processor.py:157} INFO - Started process (PID=70950) to work on /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py
+[2023-06-13T11:44:37.598+0200] {processor.py:826} INFO - Processing file /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py for tasks to queue
+[2023-06-13T11:44:37.599+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:44:37.599+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py
+[2023-06-13T11:44:37.642+0200] {processor.py:836} INFO - DAG(s) dict_keys(['dag2']) retrieved from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py
+[2023-06-13T11:44:37.690+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:44:37.689+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-13T11:44:38.398+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:44:38.397+0200] {dag.py:3486} INFO - Setting next_dagrun for dag2 to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T11:44:38.419+0200] {processor.py:179} INFO - Processing /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py took 0.827 seconds
+[2023-06-13T11:47:20.551+0200] {processor.py:157} INFO - Started process (PID=71395) to work on /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py
+[2023-06-13T11:47:20.555+0200] {processor.py:826} INFO - Processing file /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py for tasks to queue
+[2023-06-13T11:47:20.556+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:47:20.556+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py
+[2023-06-13T11:47:20.589+0200] {processor.py:836} INFO - DAG(s) dict_keys(['dag2']) retrieved from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py
+[2023-06-13T11:47:21.263+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:47:21.263+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-13T11:47:21.283+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:47:21.283+0200] {dag.py:3486} INFO - Setting next_dagrun for dag2 to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T11:47:21.304+0200] {processor.py:179} INFO - Processing /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py took 0.754 seconds
+[2023-06-13T11:49:20.528+0200] {processor.py:157} INFO - Started process (PID=71762) to work on /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py
+[2023-06-13T11:49:20.532+0200] {processor.py:826} INFO - Processing file /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py for tasks to queue
+[2023-06-13T11:49:20.532+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:49:20.532+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py
+[2023-06-13T11:49:20.565+0200] {processor.py:836} INFO - DAG(s) dict_keys(['dag2']) retrieved from /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py
+[2023-06-13T11:49:21.316+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:49:21.315+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-13T11:49:21.339+0200] {logging_mixin.py:149} INFO - [2023-06-13T11:49:21.338+0200] {dag.py:3486} INFO - Setting next_dagrun for dag2 to 2023-06-13T00:00:00+00:00, run_after=2023-06-14T00:00:00+00:00
+[2023-06-13T11:49:21.364+0200] {processor.py:179} INFO - Processing /Users/simba/Documents/Converteo/cas_airflow1/env/lib/python3.11/site-packages/airflow/example_dags/dag1.py took 0.837 seconds
